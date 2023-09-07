@@ -33,3 +33,5 @@ This project demonstrates the creation of a basic informational website using No
     ```bash
     node server.mjs
     ```
+
+4.  Open your web browser and visit [http://localhost:3000](http://localhost:3000) to view the website.
