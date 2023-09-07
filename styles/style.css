@@ -122,7 +122,6 @@ main.error-page {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
 }
 
 .error-page h1 {
