@@ -6,6 +6,7 @@ const PORT = 3000;
 const contentTypes = {
     html: "text/html",
     plain: "text/plain",
+    css: "text/css",
 };
 
 const sendErrorResponse = (res) => {
@@ -48,6 +49,9 @@ const server = http.createServer((req, res) => {
                 "./views/routes/contact-me.html",
                 "text/html"
             );
+            break;
+        case "/styles/style.css":
+            sendFileResponse(res, "./styles/style.css", contentTypes.css);
             break;
         default:
             sendErrorResponse(res);

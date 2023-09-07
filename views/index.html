@@ -5,16 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Informational Site</title>
+
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 
 <body>
-    <h1>Basic Informational Site</h1>
+    <header>
+        <h3>InfoHub</h3>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact-me">Contact</a></li>
-    </ul>
+    <main>
+        <h2>Welcome to the Basic Informational Site</h2>
+        <p>Here at the Basic Informational Site, we're excited to introduce you to the inner workings of our website,
+            powered by a robust Node.js server. As you explore our content and navigate through different pages, it's
+            important to understand how our server operates to deliver a seamless user experience.</p>
+
+        <ul>
+            <li>This website operates on a Node.js server, which serves as the backbone of our platform.</li>
+            <li>When you enter a specific URL in your browser, our Node.js server receives your request and processes
+                it.</li>
+            <li>Each URL corresponds to a different page on our website, and our server's routing system ensures that
+                your request is directed to the correct HTML or CSS document.</li>
+            <li>Once your requested page is identified, it may also request additional files, such as JavaScript scripts
+                or stylesheets, to enhance your browsing experience.</li>
+            <li>If, for any reason, our server cannot find a file that matches your requested URL, fear not! Instead of
+                crashing, our server gracefully handles the situation by directing you to our custom <a href="/404">404
+                    error page</a>.</li>
+        </ul>
+
+        <p>Our commitment is to provide you with a seamless and informative online experience. Whether you're here to
+            learn, explore, or simply enjoy our content, our Node.js-powered server ensures that your journey is smooth
+            and error-free.</p>
+
+        <p>Thank you for joining us on this exciting adventure into the world of Node.js and web development. Happy
+            browsing!</p>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Basic Informational Site</p>
+    </footer>
 </body>
 
 </html>

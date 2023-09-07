@@ -5,16 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Informational Site</title>
+
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 
 <body>
-    <h1>Contact Me</h1>
+    <header>
+        <h3>InfoHub</h3>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact-me">Contact</a></li>
-    </ul>
+    <main>
+        <h2>Contact Me</h2>
+        <form>
+            <ul>
+                <li>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name">
+                </li><br>
+                <li>
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject">
+                </li><br>
+                <li>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="60"></textarea>
+                </li>
+                <li id="submit-listitem">
+                    <input id="submitbtn" type="submit" value="Submit">
+                </li>
+            </ul>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Basic Informational Site</p>
+    </footer>
 </body>
 
 </html>
